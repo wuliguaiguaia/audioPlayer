@@ -56,10 +56,17 @@ currentTimeChange() {
 ```
 2、禁止用户选中
 ```css
-::selection{
+.noselect{
     user-select: none;
 }
 ```
+3、拓展 伪元素控制选中样式
+```css
+::selection{
+   background-color: red;
+}
+```
+
 ### css相关
 1、动画：animation-play-state 控制转动，可选true、false
 
