@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <div id="zybWrap">
+            <div class="main-wrap">
+                <img id="zybSticke" class="sticke" src="./pics/ic_sticke_pause.svg" data-src1="./pics/ic_sticke_play.svg" data-src2="./pics/ic_sticke_pause.svg">
+                 <div id="zybPlatWrap" class="plate-wrap">
+                    <img src="./pics/ic_plate.svg" alt="">
+                    <img src="./pics/ic_plate2.svg" alt="">
+                    <img id="zybPic" src="" class="pic"alt="">
+                </div>
+                <div class="text-wrap">
+                    <div id="zybEnsent" class="en"></div>
+                    <div id="zybZhsent" class="zh"></div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="range-wrap">
+                    <span id="zybCurrentTime">00:00</span>
+                    <input id='zybRange' type="range" step="1" value="0">
+                    <span id="zybDuration">05:00</span>
+                </div>
+                <div class="button-wrap">
+                    <img id="zybBackward" class="progress" src="./pics/ic_backward.svg">
+                    <img id="zybPlayButton" class="play-btn"  src="./pics/ic_pause.svg" data-src1="./pics/ic_play.svg" data-src2="./pics/ic_pause.svg">
+                    <img id="zybForward" class="progress" src="./pics/ic_forward.svg">
+                </div>
+            </div>
+        </div>
+        <div id="zybMask" class="mask"></div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

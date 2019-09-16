@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>ic/语音播放01</title>
+    <desc>Created with Sketch.</desc>
+    <g id="ic/语音播放01" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ic/视频播放">
+            <circle id="Oval" fill="#4CC760" cx="64" cy="64" r="64"></circle>
+            <g id="ic/视频语音/播放" transform="translate(40.000000, 40.000000)" fill="#FFFFFF">
+                <path d="M11.2050246,0.542890322 C3.96666879,3.81086379 4.56986511,44.3337347 11.2050246,47.6017082 C17.8401841,50.8696817 48,33.222625 48,24.0722993 C48,14.9219736 18.4433804,-3.37867783 11.2050246,0.542890322 Z" id="XMLID_96_-path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

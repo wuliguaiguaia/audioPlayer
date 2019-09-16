@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="456px" height="258px" viewBox="0 0 456 258" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>胶片播放器/播放中</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.617314098" y="0.560291047" width="255" height="255"></rect>
+        <linearGradient x1="50%" y1="50%" x2="50%" y2="87.8821581%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#EAEAEA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="胶片播放器/播放中" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="矩形" x="0" y="0" width="456" height="258"></rect>
+        <g id="编组-5" transform="translate(200.000000, 1.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="矩形" opacity="0.5"></g>
+            <circle id="椭圆形" stroke="#FFFFFF" fill="#000000" opacity="0.07" mask="url(#mask-2)" cx="28" cy="26" r="21"></circle>
+            <g id="播放器" mask="url(#mask-2)">
+                <g transform="translate(92.500000, 140.990381) rotate(-30.000000) translate(-92.500000, -140.990381) translate(-20.500000, 8.990381)">
+                    <path d="M62.6798044,6.98039203 C72.893577,73.7076914 83.9839098,119.432213 95.9508028,144.153956 C105.059727,162.97158 120.093186,180.007471 141.051178,195.261628" id="路径-2" stroke="#FFFFFD" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" transform="translate(101.865491, 101.121010) rotate(-330.000000) translate(-101.865491, -101.121010) "></path>
+                    <g id="编组-4" stroke="none" stroke-width="1" fill-rule="evenodd" transform="translate(97.485197, 224.336528) rotate(-383.000000) translate(-97.485197, -224.336528) translate(86.485197, 194.836528)">
+                        <rect id="矩形" fill="#4C4C4C" x="10.5486228" y="0.583653489" width="2" height="14" rx="1"></rect>
+                        <rect id="矩形" fill="url(#linearGradient-3)" x="4.06816701" y="6.04318556" width="14" height="41" rx="2"></rect>
+                        <rect id="矩形" fill="#FFFFFF" x="-4.54747351e-12" y="34" width="22" height="24" rx="4"></rect>
+                        <rect id="矩形" fill="#B7B7B7" x="5" y="39" width="2" height="14" rx="1"></rect>
+                        <rect id="矩形" fill="#B7B7B7" x="15" y="39" width="2" height="14" rx="1"></rect>
+                    </g>
+                </g>
+            </g>
+            <circle id="椭圆形" stroke="#FFFFFD" stroke-width="10" fill="#E1DFE0" mask="url(#mask-2)" cx="28" cy="26" r="10"></circle>
+        </g>
+    </g>
+</svg>

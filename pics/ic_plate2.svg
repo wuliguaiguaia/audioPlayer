@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="540px" height="540px" viewBox="0 0 540 540" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>胶片/02转动胶片底</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="11.3819289%" y1="80.8261787%" x2="88.7162256%" y2="19.2445902%" id="linearGradient-1">
+            <stop stop-color="#131313" offset="0%"></stop>
+            <stop stop-color="#1F1F1F" offset="33.6207309%"></stop>
+            <stop stop-color="#3A3A3A" offset="49.4298986%"></stop>
+            <stop stop-color="#1F1F1F" offset="64.6722221%"></stop>
+            <stop stop-color="#131313" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="250" cy="250" r="250"></circle>
+        <filter x="-2.4%" y="-2.4%" width="104.8%" height="104.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="19.1444324%" y1="10.4593857%" x2="81.700152%" y2="89.0169982%" id="linearGradient-4">
+            <stop stop-color="#140F0C" offset="0%"></stop>
+            <stop stop-color="#191919" offset="49.1604177%"></stop>
+            <stop stop-color="#140F0C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="胶片/02转动胶片底" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(20.000000, 20.000000)">
+            <g id="外圈">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <circle stroke="#191919" stroke-width="2" stroke-linejoin="square" fill="url(#linearGradient-1)" fill-rule="evenodd" cx="250" cy="250" r="249"></circle>
+            </g>
+            <circle id="椭圆形" stroke="#FFFFFF" stroke-width="2" opacity="0.04" cx="250" cy="250" r="241"></circle>
+            <circle id="椭圆形" stroke="#FFFFFF" stroke-width="2" opacity="0.04" cx="250" cy="250" r="233"></circle>
+            <circle id="椭圆形" stroke="#FFFFFF" stroke-width="2" opacity="0.04" cx="250" cy="250" r="225"></circle>
+            <circle id="椭圆形" stroke="#FFFFFF" stroke-width="2" opacity="0.04" cx="250" cy="250" r="217"></circle>
+            <circle id="椭圆形" stroke="#FFFFFF" stroke-width="2" opacity="0.04" cx="250" cy="250" r="209"></circle>
+            <circle id="内圈" stroke-opacity="0.03" stroke="#FFFFFF" stroke-width="2" fill-opacity="0.5" fill="url(#linearGradient-4)" cx="250" cy="250" r="201"></circle>
+        </g>
+    </g>
+</svg>
