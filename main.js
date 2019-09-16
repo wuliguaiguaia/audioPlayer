@@ -16,7 +16,6 @@ class Music {
         this.currentTime = 0;
         this.duration = 0;
         this.timeSkip = 15;
-        this.timer = null;
         this.audio = new Audio();
         Object.assign(this, this.getAudioData());
         this.init();
@@ -27,13 +26,13 @@ class Music {
         document.title = "";
         document.title = this.title;
         this.audio.src = this.src;
-        // this.audio.autoplay = 'autoplay';
+        this.audio.autoplay = 'autoplay';
         this.enSent = this.enSent.slice(0, 50);
         zybEnsent.innerText = this.enSent;
 
         let zhSent = '';
         for (let i = 0; i < this.zhSent.length; i++) {
-            i !== 0 && i % 22 === 0 ? zhSent += this.zhSent[i] + '<br/>' : zhSent += this.zhSent[i];
+            i !== 0 && i % 21 === 0 ? zhSent += this.zhSent[i] + '<br/>' : zhSent += this.zhSent[i];
         }
         zybZhsent.innerHTML = zhSent;
         zybPic.src = this.pic;
@@ -43,9 +42,9 @@ class Music {
 
     getAudioData() {
         return {
-            title: "初二英语尖端班第1讲",
+            title: "初二英语尖端班第1讲大叔大婶大所大所大所大所大所大所大所多多多多",
             src: "./music.mp3",
-            enSent: 'Lorem ipsum do lor sit, amet consectetur adipisicing elit. Repudiandae quia?',
+            enSent: 'Lorem ipsum do lor sit, amet consecteture',
             zhSent: '今日事，今日毕，出自行车自行车！出自行车自行车自行车创造性存在小从中选出',
             pic: './pics/bg.png'
         }
@@ -114,24 +113,16 @@ class Music {
 
     playStatusChange() {
         let val = this.playStatus;
-        let deg = +zybPlatWrap.style.transform.slice(7, -4);
         if (val) {
             zybPlayButton.src = zybPlayButton.dataset.src1;
             zybSticke.src = zybSticke.dataset.src1;
-            if (this.timer) {
-                clearInterval(this.timer);
-            }
-            this.timer = setInterval(_ => {
-                deg += 360 / 20000 * 5;
-                console.log(deg);
-                zybPlatWrap.style.transform = `rotate(${deg}deg)`;
-            }, 5);
             this.audio.play();
+            zybPlatWrap.classList.remove('pause');
         } else {
             zybPlayButton.src = zybPlayButton.dataset.src2;
             zybSticke.src = zybSticke.dataset.src2;
             this.audio.pause();
-            clearInterval(this.timer);
+            zybPlatWrap.classList.add('pause');
         }
     }
 

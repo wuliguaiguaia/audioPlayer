@@ -1,10 +1,10 @@
 body {
   margin: 0;
 }
-
-*{
-  user-select:none;
+* {
+  -webkit-tap-highlight-color:transparent;
 }
+
 #app {
   position: relative;
 }
@@ -37,6 +37,23 @@ img {
   width: 270px;
   height: 270px;
 }
+#zybPlatWrap.rotate{
+  animation: rotate 20s linear infinite;
+  animation-play-state: running;
+}
+#zybPlatWrap.rotate.pause{
+  animation-play-state: paused;
+}
+@keyframes rotate{
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
 #zybPlatWrap > img {
   position: absolute;
   top: 50%;
@@ -129,7 +146,7 @@ input[type="range"]:focus {
 input[type="range"] {
   -webkit-appearance: none;
   margin: 0 10px;
-  vertical-align: middle;
+  vertical-align: 4px;
   width: 65%;
   height: 2px;
   background: linear-gradient(#fff, #fff) no-repeat rgb(255, 255, 255, 0.3);
