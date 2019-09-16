@@ -5,6 +5,7 @@
 2、timeupdate 播放位置发生改变，拿到currentTime 
 
 3、通过改变playStatus控制播放状态
+
 联动行为：播放按钮，播放杆，光碟转动
 ```js
 playStatusChange() {
@@ -26,7 +27,9 @@ playStatusChange() {
 1. range的input事件
 2. 左右按钮增加15s或减少15s
 3. 音频正常播放
+
 联动行为：range进度及背景，音频currentTime，播放时间
+
 边界处理：为0%播放，为100%暂停，0%~100%播放，
 ```js
 currentTimeChange() {
