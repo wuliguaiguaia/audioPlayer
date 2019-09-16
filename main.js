@@ -29,14 +29,11 @@ class Music {
         this.audio.autoplay = 'autoplay';
         this.enSent = this.enSent.slice(0, 50);
         zybEnsent.innerText = this.enSent;
-
         let zhSent = '';
         for (let i = 0; i < this.zhSent.length; i++) {
             i !== 0 && i % 21 === 0 ? zhSent += this.zhSent[i] + '<br/>' : zhSent += this.zhSent[i];
         }
         zybZhsent.innerHTML = zhSent;
-        zybPic.src = this.pic;
-        zybMask.style.backgroundImage = `url(${this.pic})`;
         this.bindEvents();
     }
 
@@ -65,6 +62,7 @@ class Music {
         this.audio.addEventListener('play', _ => {
             this.playStatus = true;
             this.playStatusChange();
+            !zybPlatWrap.classList.contains('rotate') && zybPlatWrap.classList.add('rotate');
         })
 
         this.audio.addEventListener('pause', _ => {
@@ -108,7 +106,8 @@ class Music {
     initStyle() {
         zybWrap.style.width = screen.width + 'px';
         zybWrap.style.height = screen.height + 'px';
-
+        zybPic.src = this.pic;
+        zybMask.style.backgroundImage = `url(${this.pic})`;
     }
 
     playStatusChange() {
